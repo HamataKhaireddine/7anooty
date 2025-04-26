@@ -197,6 +197,5 @@ Contributions are welcome! Follow the contribution guidelines to get started.
 
 ## License
 
-kestay is open-sourced software licensed under the MIT license.
-
+MIT License © 2025 — Hamata Khaireddine
 
