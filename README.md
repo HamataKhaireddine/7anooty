@@ -1,7 +1,7 @@
 # 📝 About 7anooty marketplace app :
 
 
-# Open Source eCommerce Mobile App
+## Open Source eCommerce Mobile App
 
 
 [kestay](https://kestay.com/) revolutionizes the world of mobile commerce with its open-source eCommerce mobile app solution. This open-source mobile ecommerce app seamlessly transforms your kestay store into a powerful mobile platform, providing real-time synchronization of products and categories. With a user-friendly interface, managing orders becomes a breeze, making it an essential tool for tech-savvy individuals and those new to eCommerce.
@@ -9,36 +9,36 @@
 This mobile app, built on the foundation of the kestay eCommerce framework and leveraging the robust Laravel stack, offers many features for a comprehensive and efficient mobile shopping experience. The app ensures easy product information management and accelerates time-to-market for your products, all while giving you complete control over your store.
 
 
-# Features
+## Features
 
 The open-source ecommerce mobile app comes with an array of features to improve your customers' shopping experience.
 
 
-## Interactive Home Page and Search
+### Interactive Home Page and Search
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/interactive-homepage-and-search.png)
 
-## All Type Product Supported
+### All Type Product Supported
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/product-details.png)
 
-## Dark Mode and Push Notification
+### Dark Mode and Push Notification
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/dark-theme-and-push-notifications.png)
 
-## Discount Coupons and Guest Checkout
+### Discount Coupons and Guest Checkout
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/coupon-and-guest-checkout.png)
 
-## Wishlist and Product Category
+### Wishlist and Product Category
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/category%3Dpage-and-wishlist.png)
 
-## Order Details and Product Reviews
+### Order Details and Product Reviews
 
 ![enter image description here](https://raw.githubusercontent.com/bagisto/temp-media/master/order-details-and-product-reviews.png)
 
-## Installation Guide
+### Installation Guide
 
 Before beginning with the installation, you will need the following with the mentioned versions
 
@@ -53,9 +53,9 @@ Make sure you have installed the API module and set this up properly on your kes
 
 > NOTE: It is recommended that you run a simple Hello World program in Flutter first before proceeding further so that you are sure that the environment is properly set up.
 
-## Installation Steps
+### Installation Steps
 
-### Clone the repository
+#### Clone the repository
 
 - Open your terminal or command prompt
 - Navigate to the directory where you want to save the project
@@ -64,7 +64,7 @@ Make sure you have installed the API module and set this up properly on your kes
 ```sh
 git clone https://github.com/HamataKhaireddine/7anooty.git
 ```
-### Install dependencies
+#### Install dependencies
 
 - Navigate to the project's directory
 
@@ -77,7 +77,7 @@ cd <repository-name>
 ```sh
 flutter pub get
 ```
-### Generate Required files
+#### Generate Required files
 
 - Navigate to the project's directory
 
@@ -91,7 +91,7 @@ cd <repository-name>
 flutter pub run build_runner build --delete-conflicting-outputs 
 ```
 
-### Connect a device or emulator
+#### Connect a device or emulator
 
 * Physical Device
 
@@ -102,21 +102,21 @@ flutter pub run build_runner build --delete-conflicting-outputs
 
   1. Start an Android or iOS emulator using your preferred IDE or tools.
 
-### Run the Project
+#### Run the Project
 
 - Use the following command to build and run the project
 
 ```sh
 flutter run
 ```
-## Minimum Versions
+### Minimum Versions
 
 - Android: 22
 - iOS: 14
 
-## Configurations Steps
+### Configurations Steps
 
-### For Setup
+#### For Setup
 
 Change the baseUrl  as per your store
 
@@ -127,7 +127,7 @@ static const String baseUrl = ‘....’;
 ```
 > Note: Add the value of the complete URL ending with the GraphQL API endpoint. E.g - https://example.com/graphql
 
-### For Theme
+#### For Theme
 
 Change the Theme for your app
 
@@ -138,7 +138,7 @@ static const Color primaryColor = Color(***********);
 static const Color accentColor = Color(***********); 
 ```
 
-### For Push Notification Service
+#### For Push Notification Service
 
 - Android
 
@@ -148,7 +148,7 @@ Replace "google-services.json".
 Replace "GoogleService-Info.plist".
 
 
-### For Application Title
+#### For Application Title
 
 * Android
 
@@ -162,7 +162,7 @@ Replace "GoogleService-Info.plist".
 > For Homepage Header Title - Go to ‘assets/language/en.json’
 > (Note: Here, “en” in en.json refers to the languages that would be supported within the application)
 
-### For Splash Screen
+#### For Splash Screen
 
 * For adding Lottie as Splash Screen
 
@@ -181,22 +181,22 @@ Replace "GoogleService-Info.plist".
 ```sh
   static const String splashImage = "assets/images/splash.png";
 ```
-### For App Icon
+#### For App Icon
 
 * **Android:** Open the android folder in Android Studio and then right click app > new > Image Asset set Image.
 * **iOS:** Replace the icons over the path > ios/Runner/Assets.xcassets/AppIcon.appiconset
 
 
 
-## Usage
+### Usage
 
 For detailed usage instructions, refer to the official documentation
 
-## Contributing
+### Contributing
 
 Contributions are welcome! Follow the contribution guidelines to get started.
 
-## License
+### License
 
 MIT License © 2025 — Hamata Khaireddine
 
